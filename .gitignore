@@ -1,0 +1,61 @@
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables / secrets
+.env
+*.env
+secrets.json
+
+# Large data files (> 1 MB) – commit small samples only
+data/raw/*.data
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.gz
+data/processed/
+
+# But keep the data README
+!data/README.md
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model artefacts (large binary files)
+models/
+*.joblib
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Reports / generated figures (regenerate from notebooks)
+reports/figures/*.png
+reports/figures/*.pdf
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
