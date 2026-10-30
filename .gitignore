@@ -25,7 +25,7 @@ build/
 secrets.json
 
 # Large data files (> 1 MB) – commit small samples only
-data/raw/*.data
+# data/raw/german.data is only 78 KB so it IS committed
 data/raw/*.csv
 data/raw/*.zip
 data/raw/*.gz
